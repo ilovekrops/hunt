@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <title>Happy birthday, birthday boy!</title>
+    <meta name="description" content="Happy birthday, birthday boy!">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <main>
+        <div id="instructions">
+            <article>
+                Znajdź numery ze zdjęć na Wildzie. Podpowiedź - zdjęcia ułożone są w kolejności drogi do domu.<br><br>
+
+                Znajdź liczby z budynków, przekształć je i ułóż w odpowiedniej kolejności a dadzą Ci szyfr, który musisz rozwiązać, żeby otrzymać hasło do wpisania poniżej.<br><br>
+
+                Podpowiedź - Iskra-dog, klucz: król z Twojego osiedla<br><br>
+
+                C+15 / G-36 / E+8 / A+43 / F-7 / D+6 / B+53
+            </article>
+            <article class="photos">
+                <div class="photo">
+                    <a href="img/A.jpg" target="_blank"><span>A</span>
+                    <img src="img/A.jpg"/></a>
+                </div>
+                <div class="photo">
+                    <a href="img/B.jpg" target="_blank"><span>B</span>
+                    <img src="img/B.jpg"/></a>
+                </div>
+                <div class="photo">
+                    <a href="img/C.jpg" target="_blank"><span>C</span>
+                    <img src="img/C.jpg"/></a>
+                </div>
+                <div class="photo">
+                    <a href="img/D.jpg" target="_blank"><span>D</span>
+                    <img src="img/D.jpg"/></a>
+                </div>
+                <div class="photo">
+                    <a href="img/E.jpg" target="_blank"><span>E</span>
+                    <img src="img/E.jpg"/></a>
+                </div>
+                <div class="photo">
+                    <a href="img/F.jpg" target="_blank"><span>F</span>
+                    <img src="img/F.jpg"/></a>
+                </div>
+            </article>
+            <div class="answer-box">
+                <input type="text" id="answer" name="answer" autocomplete="off">
+                <button onclick="submit(2)">Submit</button>
+            </div>
+            <div class="wrong" id="wrong">
+                Nie jest to prawidlowa odpowiedz. Próbuj dalej!
+            </div>
+        </div>
+        <div id="correct"></div>
+    </main>
+</body>
+<script src="../script.js"></script>
+</html>
